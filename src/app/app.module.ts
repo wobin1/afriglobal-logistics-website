@@ -10,6 +10,7 @@ import { MainComponent } from './layout/main/main.component';
 import { SharedModule } from './shared/shared.module';
 import { HomeModule } from './views/home/home.module';
 import { OthersComponent } from './layout/others/others.component';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 
 
 @NgModule({
@@ -29,7 +30,7 @@ import { OthersComponent } from './layout/others/others.component';
     
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
-  providers: [],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

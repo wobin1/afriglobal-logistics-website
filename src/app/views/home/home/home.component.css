@@ -1,0 +1,10 @@
+
+.header {
+    margin: 0 auto;
+    width: min(100%, 80rem);
+}
+
+
+.footer {
+    margin-top: 10rem;
+}

@@ -1,0 +1,41 @@
+
+<div class="header">
+    <app-others-header page="Our Services" subpage={{service}}></app-others-header>
+</div>
+
+
+<div class="cmt-row sidebar cmt-sidebar-right cmt-bgcolor-grey clearfix">
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+            <div class="col-lg-4 widget-area sidebar-right">
+                <aside class="widget widget-nav-menu">
+                    <ul class="widget-menu">
+                        <li><a routerLink="integrated-logistics-solution">Integrated Logistics Solution</a></li>
+                        <li class="active"><a routerLink="door-to-door">Door To Door</a></li>
+                        <li><a routerLink="air-fright">Air Fright</a></li>
+                        <li><a routerLink="sea-fright">Sea Fright</a></li>
+                        <li><a routerLink="chartering-service">Chartering Service</a></li>
+                        <li><a routerLink="custom-clearance">Custom Clearance</a></li>
+                        <li><a routerLink="road-transport">Road Transport</a></li>
+                        <li><a routerLink="water-transport">Water Transport</a></li>
+                        <li><a routerLink="warehousing-and-distribution">Warehousing And Distribution</a></li>
+                        <li><a routerLink="heavy-lift">Heavy Lift</a></li>
+                        <li><a routerLink="logistics-for-comodities">Logistics For Comodities</a></li>
+                        <li><a routerLink="project-handling">Project Handling</a></li>
+                    </ul>
+                </aside>
+                <aside class="widget widget-download">
+                    <ul class="download">
+                        <li><i class="fa fa-file-pdf-o"></i><div><h4>Our Brouchers</h4><a href="#">Download</a></div></li>
+                        <li><i class="fa fa-file-pdf-o"></i><div><h4>Laboratory Details</h4><a href="#">Download</a></div></li>
+                    </ul>
+                </aside>
+
+            </div>
+            <div class="col-lg-8 content-area">
+                <router-outlet></router-outlet>
+            </div>
+        </div><!-- row end -->
+    </div>
+</div>

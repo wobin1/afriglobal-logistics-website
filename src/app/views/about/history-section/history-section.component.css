@@ -1,0 +1,10 @@
+.history-imag {
+    height: 700px;
+}
+
+.group-image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

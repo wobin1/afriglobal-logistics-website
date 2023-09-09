@@ -8,6 +8,7 @@ import { AboutSectionComponent } from './about-section/about-section.component';
 import { ServicesSectionComponent } from './services-section/services-section.component';
 import { ClientsSectionComponent } from './clients-section/clients-section.component';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
+import { VideoSectionComponent } from './video-section/video-section.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
     AboutSectionComponent,
     ServicesSectionComponent,
     ClientsSectionComponent,
-    ContactSectionComponent
+    ContactSectionComponent,
+    VideoSectionComponent
   ],
   imports: [
     CommonModule,

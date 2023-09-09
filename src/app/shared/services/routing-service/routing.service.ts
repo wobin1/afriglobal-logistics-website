@@ -72,7 +72,10 @@ export class RoutingService {
       this.router.navigateByUrl('contact')
     }
     if(page=='get-qoute'){
-      this.router.navigateByUrl('contact')
+      this.router.navigateByUrl('get-qoute')
+    }
+    if(page=='career'){
+      this.router.navigateByUrl('career')
     }
   }
 }

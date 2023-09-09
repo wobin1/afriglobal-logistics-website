@@ -27,7 +27,11 @@ const routes: Routes = [
   ]},
   {path:'', component: OthersComponent, children:[
     {path:"", loadChildren: ()=> import('./views/get-qoute/get-qoute.module').then(m => m.GetQouteModule)},
+  ]},
+  {path:'', component: OthersComponent, children:[
+    {path:"", loadChildren: ()=> import('./views/career/career.module').then(m => m.CareerModule)},
   ]}
+ 
  
 ];
 

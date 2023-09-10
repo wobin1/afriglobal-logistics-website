@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class ContactSectionComponent {
 
+
+  submit(){
+    console.log("submit working")
+  }
+
 }
